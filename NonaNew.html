@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-
+alpha1/css/bootstrap.min.css" integrity="sha384-
+r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nona's Ordering Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Nona's</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sign Up / Login
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="text-center mb-4">Welcome to Nona's Ordering Form</h1>
+                
+                <!-- Address Search Bar -->
+                <div class="mb-4">
+                    <label for="addressSearch" class="form-label">Enter your address:</label>
+                    <input type="text" class="form-control" id="addressSearch" placeholder="Enter your address">
+                    <button class="btn btn-primary mt-2" onclick="checkAddress()">Check Address</button>
+                    <div id="addressResult" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Nona's. All rights reserved.</p>
+        <div>
+            <a href="#" class="btn btn-link text-white">Facebook</a>
+            <a href="#" class="btn btn-link text-white">Twitter</a>
+            <a href="#" class="btn btn-link text-white">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+<div class="container-fluid">
+ <a class="navbar-brand" href="#">Nona's Pizza</a>
+ <button class="navbar-toggler" type="button" datatoggle="collapse" data-target="#navbarNavDropdown" ariacontrols="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNavDropdown">
+ <ul class="navbar-nav ml-auto ">
+ <li class="nav-item dropdown">
+ <li class="nav-item ml-lg-3">
+ <a class="nav-link text-light" href="#">Contact</a>
+ </li>
+<li class="nav-item">
+ <a class="nav-link text-light" href="#">Log In</a>
+ </li>
+ <li class="nav-item dropdown ml-lg-3 ">
+ <a class="nav-link dropdown-toggle text-light dinline-block bg-orange rounded p-1 p-lg-2" href="#" id="navbarDropdownMenuLink"
+role="button" data-toggle="dropdown" aria-expanded="false">Sign Up</a>
+ <ul class="dropdown-menu dropdown-menu-lg-right p-5
+sign__container" aria-labelledby="navbarDropdownMenuLink">
+ <h1 class="h4 mb-3 font-weight-normal textcenter">Please Sign In</h1>
+ <label for="inputEmail" class="sr-only">Email
+Address</label>
+ <input type="email" id="inputEmail" class="formcontrol" placeholder="Email address" required="" autofocus="">
+ <label for="inputPassword" class="sr-only
+">Password</label>
+ <input type="password" id="inputPassword"
+class="form-control mb-2" placeholder="Password" required="">
+ <div class="checkbox mb-4">
+ <label>
+ <input type="checkbox" value="rememberme"> Remember Me
+ </label>
+ </div>
+<button class="btn btn-lg bg-orange btn-block
+text-light" type="submit">Sign In</button>
+ </ul>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </nav>
+<main class="container-fluid cover ">
+ <div class="row align-items-center justify-content-center justifycontent-xl-start vh-80">
+ <div class="col col-sm-7 text-center text-xl-left col-xl-4
+offset-xl-2">
+ <h1 class="mb-4">Pizza delivery from the best pie shop in
+Safety Harbor</h1>
+ <p class="mb-5 subtitle-mb">Pizza, salads, and desserts
+available for delivery or pickup.</p>
+ <div class="input-group mb-3 shadow">
+ <input type="text" class="form-control"
+placeholder="Enter delivery address" aria-label="Search" aria-describedby="basicaddon1">
+ <div class="input-group-prepend">
+ <button class="btn bg-orange text-light textuppercase p-3" type="button">Get Nona's Pizza</button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </main>
+ <footer class="page-footer font-small bg-light">
+ <div>
+ <div class="container-fluid">
+ <!-- Grid row-->
+ <div class="row py-4 d-flex align-items-center">
+ <!-- Grid column -->
+ <div class="col-md-7 col-lg-5 col-xl-4 text-center textmd-left mb-md-0 small">
+ <nav class="nav justify-content-center justifycontent-md-start">
+ <a class="nav-link text-muted" href="#">Menu</a>
+ <a class="nav-link text-muted"
+href="#">About</a>
+ <a class="nav-link text-muted"
+href="#">Contact</a>
+ </nav>
+ </div>
+
+ <!-- Grid column -->
+ <div class="col-md-3 col-lg-4 col-xl-6 text-center textmd-left mb-md-0 small">
+ <div class="footer-copyright text-center text-black50 pt-3 pb-2">
+ </div>
+ </div>
+ <!-- Grid column -->
+ <div class="col-md-2 col-lg-3 col-xl-2 text-center textmd-right">
+ <a href="#" class="text-dark">
+ <i class="fab fa-facebook-f white-text mx-2">
+</i></a>
+ <a href="#" class="text-dark">
+ <i class="fab fa-twitter white-text mx-2">
+</i></a>
+ <a href="#" class="text-dark">
+ <i class="fab fa-instagram white-text mx-2">
+</i></a>
+ </div>
+ </div>
+ </div>
+ </div>
+ </footer>
